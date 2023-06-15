@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 
-const Header: FC = () => {
+const Dropdown: FC = () => {
   return (
     <>
     </>
   )
 }
 
-export default Header
+export default Dropdown

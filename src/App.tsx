@@ -1,7 +1,7 @@
 import './App.css'
-import Analysis from './components/Analysis/Analysis'
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
+import AddNew from './pages/AddNew/AddNew'
+import Header from './comps/Header'
+import Main from './pages/Main/Main'
 import { Routes, Route } from "react-router-dom"
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/analysis" element={<Analysis />} />
+        <Route path="/add" element={<AddNew />} />
       </Routes>
     </>
   )
