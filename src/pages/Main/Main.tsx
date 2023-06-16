@@ -9,7 +9,7 @@ const Main: FC = () => {
   useEffect(() => {
     if (Object.keys(backData).length < 1) {
       const response = axios.get("")
-      setBackData(response.data)
+      setBackData(response)
     }
 
   }, [backData])

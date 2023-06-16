@@ -1,7 +1,7 @@
 import './App.css'
 import AddNew from './pages/AddNew/AddNew'
 import Header from './comps/Header'
-import Main from './pages/Main/Main'
+import MainOld from './pages/Main/MainOld'
 import { Routes, Route } from "react-router-dom"
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<MainOld />} />
         <Route path="/add" element={<AddNew />} />
       </Routes>
     </>
