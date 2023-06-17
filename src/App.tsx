@@ -1,8 +1,9 @@
+import React from "react"
 import './App.css'
 import AddNew from './pages/AddNew/AddNew'
 import Header from './comps/Header'
 import MainOld from './pages/Main/MainOld'
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, BrowserRouter } from "react-router-dom"
 
 function App() {
 
@@ -17,4 +18,12 @@ function App() {
   )
 }
 
-export default App
+const AppWrapper = () => {
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  )
+}
+
+export default AppWrapper
