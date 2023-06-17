@@ -1,5 +1,5 @@
 import axios from "axios";
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import Dropdown from "./components/Dropdown";
 
 const Main: FC = () => {

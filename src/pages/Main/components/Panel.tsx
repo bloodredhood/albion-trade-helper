@@ -1,3 +1,4 @@
+import React from "react"
 import { IPanelItem } from "../MainOld"
 
 const Panel = ({itemName, city1, city2, buyPrice, sellPrice, gain} : IPanelItem) => {

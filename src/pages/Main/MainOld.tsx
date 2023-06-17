@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import axios from "axios";
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import Panel from "./components/Panel";
 import { goods } from "./queries"
 
