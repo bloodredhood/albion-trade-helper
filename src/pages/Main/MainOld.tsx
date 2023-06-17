@@ -225,7 +225,7 @@ const MainOld: FC = () => {
   return (
     isLoaded ? "...loading" :
       <div>
-        {state.map(el => el.gain >= 10 && <Panel {...el} />)}
+        {state.map(el => el.gain >= 10 && el.gain != Infinity && <Panel {...el} />)}
       </div>
   )
 }
